@@ -15,3 +15,23 @@ Machine Laanguage:
 which is very hard to write by human.
 4. Machine language is machine dependent. Means  it differs among different types of machine.
 5. All instruction written in other programing language.
+
+Assembly language:
+1. It was developed to make a programming easier.
+2. It was machine dependent.
+3. Keywordslike add, sub were introduced.
+4. to add 2 and 3 and get the result the instruction will be: add,2,3,result.
+5. "Assembler" is a program that translates assembly code with machine code.
+
+Assembler:
+
+High-level language:
+1. It is a new generation of programing languages.
+2. This language uses english words that's why it is easy to learn and easy to use.
+3. this language is machine independent.
+4. program will run on different machine.
+5. Instructions are called "statements".
+6. A program written using a high level programing language is called a 'source program' or 'source code'.
+
+Compiler:
+Compiler translates all the source code into machine code.
