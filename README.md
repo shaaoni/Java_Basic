@@ -34,4 +34,9 @@ High-level language:
 6. A program written using a high level programing language is called a 'source program' or 'source code'.
 
 Compiler:
-Compiler translates all the source code into machine code.
+1. Compiler translates all the source code into machine code.
+2. source program -> executable source code --compiler -> Machine code -- Executor -> output.
+
+Interpreter:
+1. translates each statement into machine code and executes it right away.
+2. statement
