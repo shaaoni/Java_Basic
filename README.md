@@ -72,3 +72,184 @@ IDE:
 4. ide has a tool called debug which is used to find errors.
 5. ide has a tool that can build files which can be executed by JVM
 6. ide has tools called run that executes the program.
+
+## **04 Anatomy of Java Program.**
+### **Method**
+Group of instraction to do a specific task.
+Examples:
+* Amethod to add two numbers.
+* Amethod to say hi to the user.
+* A method to get the user's name.
+
+### **Method Structer**
+Each methode consists of 4 main parts.
+```
+return_type method_name ( parameters) {
+  code block
+}
+```
+**Calling A Method**
+Is basically using the method
+```
+method_name ( give parameters);
+```
+* The code blocek of this methode will be executed.
+
+**NOTE: the `main()` methode is automatically called when we run our java program.**
+* It is the first methode that is called.
+* it is the string print of execution of our prgram.
+
+**Access Modifires**
+
+Specify how to access Classes & Methodes Discussed later in OOP.
+* public
+* private
+* protected
+* Default
+
+#### Naming Conventions
+* **Pascal Case Convention:**
+> ThisIsAName
+* **Camel Case Comvention:**
+> thisIsAName
+* **Snake Case Comvention:**
+> this_is_a_name
+
+#### **Java Programming Structer**
+
+```
+public class Main {
+  public static void main(String[] args) {
+
+  }   
+}
+```
+
+### **Remember**
+* Every Java program contains at least one Class.
+* Pascal case is used with classes.
+* Camel case is used with methods.
+* A method exists inside a class.
+* `main()` is the string point of excution of our program.
+
+
+## **05 Display Masseges in Java.**
+
+### **String**
+Gropu of characters (Text).
+
+String in Java should be put in double quotes.
+
+
+```
+"Hello"
+"This is an string"
+"2345678"
+"!@#$%^&"
+""
+```
+
+
+#6.  **Displaying Numbers In Java:**
+### **Numbers in Java:**
+Numbers in java are just like in mathematics.
+
+Example:
+```
+0
+-19
+129
+-0.5
+90.81
+```
+
+### **Some Arithmatic Operators:**
+
+Addition operator: +
+Subtraction operator: -
+Divison operator: /
+Multiplication operator: *
+
+### **Printing some Values:**
+```
+System.out.println(4);           4
+System.out.println(5+2);         7
+System.out.println(3-5);     =>  -2
+System.out.println(6*3);         18
+System.out.println(4/2);         2
+```
+
+
+9. Our First Java Program:
+Comments:
+We can use comments to
+
+write notes
+find errors
+// this is a single line comment
+/*this is a
+multi-line
+comment*/
+10. Java Packages, Classes and Methods:
+take ur cursor to sidebar on packages of the file.
+
+left click -> new file.
+
+this will open a new file with a same package
+
+use psvm and enter for public static void main()
+
+use sout for System.out.println();
+
+one can use a program by its class_name.function_name() in another program of another file.
+
+11. public, private and static in java:
+public access modifier:
+Specify how to access classes, methods and fields.
+
+The access level is everywhere
+
+inside a class
+outside a class
+inside a package
+outside a package
+private access modifier:
+the access level is only inside the class
+
+static non-access modifier:
+you can access fields/methods using the class name
+
+Example:
+
+System.out -> out is a static field of System.
+
+12. The void return type in Java:
+Return Type: The type of data that a method returns/gives.
+
+_ A method can return/give a value.
+
+_ getUserName():
+
+get the name of the user and return the value.
+the return type is a text(string).
+_getUserAge():
+
+get the age of the user and return the value.
+the return type is a number(int, double,...).
+The Void Return Type:
+
+main() has a void return type. -> void means nothing. -> main() does not return a value.
+
+Example: _ printUserName() :
+
+we just want to print the namw of the user.
+we do not want to get any value from this method.
+the return type is void.
+_ Note that every method has a very specific role.
+
+getUserName();
+printUserName();
+13. Command line Arguments in Java:
+in java we can pass comman line arguments through some different ways.
+while using command prompt for compilation and running, at the time of running we can use java folder_name arg1 arg2 arg3 to pass arguments.
+while using intellij IDEA we can pass arguments "by run->edit configuration -> write arguments"
