@@ -180,76 +180,95 @@ System.out.println(4/2);         2
 ```
 
 
-9. Our First Java Program:
-Comments:
-We can use comments to
+# 9. **Our First Java Program:**
 
-write notes
-find errors
+#### **Comments:**
+
+We can use comments to
+- write notes
+- find errors
+
+```
 // this is a single line comment
 /*this is a
 multi-line
 comment*/
-10. Java Packages, Classes and Methods:
-take ur cursor to sidebar on packages of the file.
+```
 
-left click -> new file.
 
-this will open a new file with a same package
+# 10. **Java Packages, Classes and Methods:**
 
-use psvm and enter for public static void main()
+1. take ur cursor to sidebar on packages of the file.
+2. left click -> new file.
 
-use sout for System.out.println();
+   this will open a new file with a same package
+3. use psvm and enter for public static void main()
+4. use sout for System.out.println();
+5. one can use a program by its class_name.function_name() in another program of another file.
 
-one can use a program by its class_name.function_name() in another program of another file.
 
-11. public, private and static in java:
-public access modifier:
+
+# 11. **public, private and static in java:**
+
+#### **public access modifier:**
 Specify how to access classes, methods and fields.
 
 The access level is everywhere
+- inside a class
+- outside a class
+- inside a package
+- outside a package 
 
-inside a class
-outside a class
-inside a package
-outside a package
-private access modifier:
-the access level is only inside the class
+#### **private access modifier:**
+the access level is only ``` inside the class```
 
-static non-access modifier:
+#### **static non-access modifier:**
 you can access fields/methods using the class name
 
 Example:
 
-System.out -> out is a static field of System.
+``` System.out```
+        -> out is a static field of System.
+        
+        
+       
+# 12. **The void return type in Java:**
 
-12. The void return type in Java:
-Return Type: The type of data that a method returns/gives.
+**Return Type:**
+The type of data that a method returns/gives.
 
 _ A method can return/give a value.
 
-_ getUserName():
+_ ```getUserName()```:
+  - get the name of the user and return the value.
+  - the return type is a text(string).
 
-get the name of the user and return the value.
-the return type is a text(string).
-_getUserAge():
+_```getUserAge()```:
+  - get the age of the user and return the value.
+  - the return type is a number(int, double,...).
 
-get the age of the user and return the value.
-the return type is a number(int, double,...).
-The Void Return Type:
 
-main() has a void return type. -> void means nothing. -> main() does not return a value.
 
-Example: _ printUserName() :
+**The Void Return Type:**
 
-we just want to print the namw of the user.
-we do not want to get any value from this method.
-the return type is void.
+ ```main()```  has a void return type.
+   -> void means nothing.
+   -> main() does not return a value.
+
+Example:
+_ ```printUserName()``` :
+  - we just want to print the namw of the user.
+  - we do not want to get any value from this method.
+  - the return type is void.
+
 _ Note that every method has a very specific role.
+  - ```getUserName();```
+  - ```printUserName();```
 
-getUserName();
-printUserName();
-13. Command line Arguments in Java:
-in java we can pass comman line arguments through some different ways.
-while using command prompt for compilation and running, at the time of running we can use java folder_name arg1 arg2 arg3 to pass arguments.
-while using intellij IDEA we can pass arguments "by run->edit configuration -> write arguments"
+
+
+# 13. **Command line Arguments in Java:**
+
+1. in java we can pass comman line arguments through some different ways.
+  - while using command prompt for compilation and running, at the time of running we can use  ```java folder_name arg1 arg2 arg3``` to pass arguments.
+  - while using intellij IDEA we can pass arguments "by run->edit configuration -> write arguments" 
